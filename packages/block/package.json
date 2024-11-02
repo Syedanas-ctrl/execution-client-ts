@@ -1,0 +1,14 @@
+{
+  "name": "@execution/block",
+  "version": "1.0.0",
+  "description": "Provides Block serialization and help functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anas",
+  "license": "ISC",
+  "dependencies": {
+    "@execution/primitives": "workspace:*"
+  }
+}

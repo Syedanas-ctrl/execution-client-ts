@@ -1,0 +1,19 @@
+{
+  "name": "execution-client-ts",
+  "version": "1.0.0",
+  "description": "Ethereum execution client in typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces"
+  },
+  "author": "Anas",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.8.1",
+    "typescript": "^5.6.3"
+  }
+}
